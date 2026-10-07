@@ -72,3 +72,31 @@ label {
 button {
   grid-column: 1 / -1;
 }
+
+/* Step 4.2: Responsive Grid for Projects Container */ 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+} 
+
+/* Step 4.3: Align article content across rows with subgrid */ 
+.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+} 
+
+.projects h2 {
+  margin: 0;
+} 
+
+/* Step 4.4: Heading hierarchy & typography defaults */ 
+h1 {
+  font-size: 400%;
+}
+
+h1,h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
