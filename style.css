@@ -100,3 +100,53 @@ h1,h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
 }
+
+/* Step 5: Resume custom styling */ 
+/* Section headers with subtle divider line */ 
+section {
+  margin-bottom: 2.5em;
+} 
+section h2 {
+  border-bottom: 2px solid oklch(90% 0 0);
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+  color: var(--color-accent);
+} 
+
+/* Projects & Experience / Education article cards */
+section article {
+  margin-bottom: 1.5em;
+} 
+
+/* Keep title and date line distinct */
+section article header {
+  margin-bottom: 0.5em; 
+} 
+section article h3 {
+  margin: 0 0 0.2em 0;
+  font-size: 1.2em;
+} 
+  
+/* Muted styling for dates and locations */ 
+section article header p {
+  margin: 0;
+  color: oklch(50% 0 0);
+  font-size: 0.9em;
+}
+time {
+  font-weight: 500; 
+} 
+
+/* Spacing and bullet points for experience lists */
+section article ul {
+  margin-top: 0.5em;
+  padding-left: 1.2em;
+}
+section article li {
+  margin-bottom: 0.4em;
+} 
+
+/* Technical Skills section list styling */
+section ul {
+  line-height: 1.8;
+}
