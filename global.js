@@ -14,7 +14,9 @@ let pages = [
 ]; 
 
 // Determine base path for local server vs. GitHub Pages
-const BASE_PATH = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? "/" : "/portfolio/";
+const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
+  ? "/"                  // Local server
+  : "/portfolio/";         // GitHub Pages repo name
 
 // Create <nav> element and prepend to <body>
 let nav = document.createElement('nav');
@@ -47,3 +49,37 @@ for (let p of pages) {
     
     nav.append(a);
 }
+
+// Step 4.2: Insert theme switcher UI at the top of <body>
+document.body.insertAdjacentHTML(
+  'afterbegin',
+  `
+	<label class="color-scheme">
+		Theme:
+		<select>
+			<option value="light dark">Automatic</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+		</select>
+	</label>`,
+);
+
+// Step 4.4-4.5: Select element and handle theme switching + localStorage persistence
+const select = document.querySelector('.color-scheme select'); 
+
+function setColorScheme(colorScheme) {
+    document.documentElement.style.setProperty('color-scheme', colorScheme);
+    select.value = colorScheme;
+} 
+
+// Load saved theme preference on page load if present
+if ('colorScheme' in localStorage) {
+    setColorScheme(localStorage.colorScheme);
+} 
+
+// Update theme and save choice to localStorage when changed
+select.addEventListener('input', (event) => {
+    const colorScheme = event.target.value;
+    setColorScheme(colorScheme);
+    localStorage.colorScheme = colorScheme;
+});

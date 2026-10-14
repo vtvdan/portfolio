@@ -44,7 +44,7 @@ nav a.current {
 nav a:hover {
   border-bottom: 0.4em solid var(--color-accent);
   padding-bottom: 0.1em;
-  background-color: oklch(from var(--color-accent) 95% 5% h);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
 /* Step 3.1: Make form controls inherit site font family and size */ 
@@ -149,4 +149,28 @@ section article li {
 /* Technical Skills section list styling */
 section ul {
   line-height: 1.8;
+}
+
+/* Step 4.1: Enable automatic light/dark mode */ 
+html {
+  color-scheme: light dark;
+} 
+
+/* Step 4.1: Use semi-transparent border */ 
+nav {
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom: 1px solid var(--border-color);
+} 
+
+/* Step 4.3: Position theme switcher at top right corner */ 
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
+} 
+
+.color-scheme select {
+  font: inherit;
 }
