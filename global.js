@@ -6,7 +6,7 @@ function $$(selector, context = document) {
 
 // Define page URLs and titles
 let pages = [
-    {url: 'index.html', title: 'Home'},
+    {url: '', title: 'Home'},
     {url: 'projects/', title: 'Projects'},
     {url: 'contact/', title: 'Contact'},
     {url: 'resume/', title: 'Resume'},
