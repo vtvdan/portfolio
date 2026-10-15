@@ -83,3 +83,24 @@ select.addEventListener('input', (event) => {
     setColorScheme(colorScheme);
     localStorage.colorScheme = colorScheme;
 });
+
+// Step 5: Enhanced Contact Form Submission
+let form = document.querySelector('form');
+
+form?.addEventListener('submit', function (event) {
+    event.preventDefault(); // Stop default browser submission 
+    
+    let data = new FormData(form);
+    let params = []; 
+    
+    // Iterate over form fields and properly encode values
+    for (let [name, value] of data) {
+        params.push(`${name}=${encodeURIComponent(value)}`);
+    } 
+    
+    // Construct mailto: URL with query parameters
+    let url = `${form.action}?${params.join('&')}`; 
+    
+    // Open default mail client with prefilled data
+    location.href = url;
+});
