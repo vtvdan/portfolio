@@ -1,0 +1,74 @@
+[
+    {
+        "title": "League of Legends Gold Share Analysis (DSC 80)",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Developed an end-to-end data science pipeline analyzing 10,000+ professional League of Legends matches to investigate gold-share dynamics between Mid Laners and ADCs and their impact on match results. Achieved a 76.21% model accuracy (via a Random Forest Classifier), improving over the initial 72.39% baseline accuracy (via a Logistic Regression model)."
+    },
+    {
+        "title": "Spoilage (VGDC)",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Worked on a team of 150+ members consisting of programmers, artists, and designers to develop a 2D psychological horror cooking/doorman sim on Unity across a ten-week development cycle for VGDC's The Chanel Project (TCP). Helped program core gameplay logic, including timer systems, object-snapping and placement mechanics, and recipe-checking logic."
+    },
+    {
+        "title": "Mahou Boutique (VGDC)",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Collaborated on a small team featuring designers, artists, and programmers to develop a 2D turn-based RPG on Unity across a six-week development cycle for VGDC's Project Forge (now known as Project Flare). Helped program core gameplay logic such as player health logic, stats tracking, and turn progression systems."
+    },
+    {
+        "title": "Autem, ratione labore. Aut!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Sit delectus doloribus nisi! Earum, ratione? Temporibus, rerum? Debitis quaerat odio architecto excepturi temporibus ullam. Aliquid, repudiandae architecto officiis quam nulla possimus ratione itaque quod in. Voluptatem temporibus esse earum."
+    },
+    {
+        "title": "Architecto blanditiis porro hic!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Voluptatum libero quibusdam molestiae voluptas ipsa non possimus pariatur. Tempore et officiis amet vel? Accusantium, harum. Veniam quo dolore omnis voluptatibus maiores voluptate quos delectus, iusto reprehenderit quis quia repellat."
+    },
+    {
+        "title": "Eius eos fugit et.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Quod perferendis culpa soluta praesentium eius, minima mollitia amet expedita, nobis, iusto facere quis aut. Et at, ex aliquid distinctio asperiores adipisci, qui blanditiis ut, harum laborum facilis quam id?"
+    },
+    {
+        "title": "Iusto eius inventore beatae.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Vero consectetur provident harum omnis quo mollitia quia. Impedit ea et, quaerat distinctio vero, sit labore error tenetur esse eos voluptatum animi totam nesciunt ducimus. Obcaecati fugit facilis ipsam repellendus!"
+    },
+    {
+        "title": "Beatae eaque nesciunt pariatur!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Magni odio eaque praesentium hic ad nisi eos quia, ipsa nulla, veritatis reiciendis debitis totam doloremque earum illum dolorem. Nihil, nulla! Odit accusantium possimus eaque natus quod amet aliquam nobis."
+    },
+    {
+        "title": "Ea iusto quia non.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Exercitationem maiores veritatis possimus adipisci id culpa, cumque delectus fuga voluptas tempora maxime autem odio laboriosam assumenda qui, incidunt illo nobis, nihil soluta facere non a! Molestias modi ullam cupiditate."
+    },
+    {
+        "title": "Sapiente laborum vel omnis.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Modi velit eveniet ratione sit quaerat blanditiis suscipit assumenda consequuntur dolore magnam. Veritatis consequuntur blanditiis nemo iusto cupiditate, iure repellendus quibusdam ab, aut temporibus a deleniti doloremque impedit natus consectetur."
+    },
+    {
+        "title": "Eaque ipsum optio doloribus.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Aliquid saepe magni facilis vel voluptatem, dolore ex ipsum deleniti accusamus, eius totam cumque. Asperiores repudiandae, inventore consequuntur praesentium natus aperiam voluptate eaque eius quia corporis neque fugit laboriosam nemo?"
+    },
+    {
+        "title": "Quas est consequatur unde?",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Accusamus expedita a necessitatibus consequuntur cumque impedit eligendi repudiandae eos, saepe ad sequi molestiae aut, ipsa animi non veritatis rem! Fuga necessitatibus inventore praesentium consectetur quidem minus soluta architecto autem."
+    }
+]
