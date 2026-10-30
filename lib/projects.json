@@ -3,7 +3,7 @@
         "title": "League of Legends Gold Share Analysis (DSC 80)",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Developed an end-to-end data science pipeline analyzing 10,000+ professional League of Legends matches to investigate gold-share dynamics between Mid Laners and ADCs and their impact on match results. Achieved a 76.21% model accuracy (via a Random Forest Classifier), improving over the initial 72.39% baseline accuracy (via a Logistic Regression model)."
+        "description": "Developed an end-to-end data science pipeline analyzing 10,000+ professional League matches to investigate gold-share dynamics between Mid Laners and ADCs and their impact on match results. Achieved a 76.21% model accuracy (via a Random Forest Classifier), improving over the initial 72.39% baseline accuracy (via a Logistic Regression model)."
     },
     {
         "title": "Spoilage (VGDC)",
@@ -18,32 +18,32 @@
         "description": "Collaborated on a small team featuring designers, artists, and programmers to develop a 2D turn-based RPG on Unity across a six-week development cycle for VGDC's Project Forge (now known as Project Flare). Helped program core gameplay logic such as player health logic, stats tracking, and turn progression systems."
     },
     {
-        "title": "Autem, ratione labore. Aut!",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Sit delectus doloribus nisi! Earum, ratione? Temporibus, rerum? Debitis quaerat odio architecto excepturi temporibus ullam. Aliquid, repudiandae architecto officiis quam nulla possimus ratione itaque quod in. Voluptatem temporibus esse earum."
+        "title": "Persuasive or Deceptive Visualization? (DSC 106)",
+        "year": "2026",
+        "image": "https://klgorski.github.io/dsc106-project2/",
+        "description": "A group project investigating a dataset of civilian complaints against NYPD officers from 1985-2020, pairing our claim with both persusaive supporting and opposing visualizations for each side. Explained our design choices and rationale for each visual, ranking how deceptive they are on a diverging scale from -2 to 2 (from fully deceptive to fully earnest)."
     },
     {
         "title": "Architecto blanditiis porro hic!",
-        "year": "2024",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Voluptatum libero quibusdam molestiae voluptas ipsa non possimus pariatur. Tempore et officiis amet vel? Accusantium, harum. Veniam quo dolore omnis voluptatibus maiores voluptate quos delectus, iusto reprehenderit quis quia repellat."
     },
     {
         "title": "Eius eos fugit et.",
-        "year": "2024",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Quod perferendis culpa soluta praesentium eius, minima mollitia amet expedita, nobis, iusto facere quis aut. Et at, ex aliquid distinctio asperiores adipisci, qui blanditiis ut, harum laborum facilis quam id?"
     },
     {
         "title": "Iusto eius inventore beatae.",
-        "year": "2024",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Vero consectetur provident harum omnis quo mollitia quia. Impedit ea et, quaerat distinctio vero, sit labore error tenetur esse eos voluptatum animi totam nesciunt ducimus. Obcaecati fugit facilis ipsam repellendus!"
     },
     {
         "title": "Beatae eaque nesciunt pariatur!",
-        "year": "2024",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Magni odio eaque praesentium hic ad nisi eos quia, ipsa nulla, veritatis reiciendis debitis totam doloremque earum illum dolorem. Nihil, nulla! Odit accusantium possimus eaque natus quod amet aliquam nobis."
     },

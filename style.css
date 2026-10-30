@@ -174,3 +174,81 @@ nav {
 .color-scheme select {
   font: inherit;
 }
+
+/* Step 2.3: Layout pie chart &amp; legend side-by-side */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-block: 2em;
+} 
+
+#projects-pie-plot {
+  max-width: 20em;
+  overflow: visible;
+} 
+
+/* Step 2.2: Responsive Legend Grid */
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  flex: 1;
+  padding: 1em;
+  margin: 0;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 8px;
+  list-style: none;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 90%;
+}
+
+.swatch {
+  width: 1em;
+  height: 1em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 50%;
+  display: inline-block;
+} 
+
+/* Step 5.1 & 5.2: Hover & Selected Styling */
+svg path {
+  transition: 300ms;
+  cursor: pointer; 
+} 
+
+svg:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+svg path.selected {
+  --color: oklch(60% 45% 0);
+}
+
+svg path.selected {
+  fill: var(--color);
+}
+
+.searchBar {
+  font: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5em 0.8em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: canvas;
+  color: canvastext;
+  margin-block: 1.5em;
+}
+
+/* Accent highlight when typing/focused */
+.searchBar:focus {
+  outline: 2px solid var(--color-accent);
+  border-color: transparent;
+}
