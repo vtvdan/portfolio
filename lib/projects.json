@@ -3,7 +3,7 @@
         "title": "League of Legends Gold Share Analysis (DSC 80)",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Developed an end-to-end data science pipeline analyzing 10,000+ professional League matches to investigate gold-share dynamics between Mid Laners and ADCs and their impact on match results. Achieved a 76.21% model accuracy (via a Random Forest Classifier), improving over the initial 72.39% baseline accuracy (via a Logistic Regression model)."
+        "description": "Developed an end-to-end data science pipeline analyzing 10,000+ professional League matches to investigate gold-share dynamics between Mid Laners and ADCs and their impact on match results. Used a Random Forest Classifier to achieve a 76.21% model accuracy, improving over the 72.39% baseline accuracy from a Logistic Regression model."
     },
     {
         "title": "Spoilage (VGDC)",
