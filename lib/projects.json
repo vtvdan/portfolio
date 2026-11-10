@@ -3,31 +3,36 @@
         "title": "League of Legends Gold Share Analysis (DSC 80)",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Developed an end-to-end data science pipeline analyzing 10,000+ professional League matches to investigate gold-share dynamics between Mid Laners and ADCs and their impact on match results. Used a Random Forest Classifier to achieve a 76.21% model accuracy, improving over the 72.39% baseline accuracy from a Logistic Regression model."
+        "description": "Developed an end-to-end data science pipeline analyzing 10,000+ professional League matches to investigate gold-share dynamics between Mid Laners and ADCs and their impact on match results. Used a Random Forest Classifier to achieve a 76.21% model accuracy, improving over the 72.39% baseline accuracy from a Logistic Regression model.",
+        "url": "https://vtvdan.github.io/LOL25-Gold/"
     },
     {
         "title": "Spoilage (VGDC)",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Worked on a team of 150+ members consisting of programmers, artists, and designers to develop a 2D psychological horror cooking/doorman sim on Unity across a ten-week development cycle for VGDC's The Chanel Project (TCP). Helped program core gameplay logic, including timer systems, object-snapping and placement mechanics, and recipe-checking logic."
+        "description": "Worked on a team of 150+ members consisting of programmers, artists, and designers to develop a 2D psychological horror cooking/doorman sim on Unity across a ten-week development cycle for VGDC's The Chanel Project (TCP). Helped program core gameplay logic, including timer systems, object-snapping and placement mechanics, and recipe-checking logic.",
+        "url": "https://github.com/vgdc-ucsd/Spoilage"
     },
     {
         "title": "Mahou Boutique (VGDC)",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Collaborated on a small team featuring designers, artists, and programmers to develop a 2D turn-based RPG on Unity across a six-week development cycle for VGDC's Project Forge (now known as Project Flare). Helped program core gameplay logic such as player health logic, stats tracking, and turn progression systems."
+        "description": "Collaborated on a small team featuring designers, artists, and programmers to develop a 2D turn-based RPG on Unity across a six-week development cycle for VGDC's Project Forge (now known as Project Flare). Helped program core gameplay logic such as player health logic, stats tracking, and turn progression systems.",
+        "url": "https://github.com/JamesVillareal1107/Mahou-Boutique"
     },
     {
         "title": "Persuasive or Deceptive Visualization? (DSC 106)",
         "year": "2026",
         "image": "https://klgorski.github.io/dsc106-project2/",
-        "description": "A group project investigating a dataset of civilian complaints against NYPD officers from 1985-2020, pairing our claim with both persusaive supporting and opposing visualizations for each side. Explained our design choices and rationale for each visual, ranking how deceptive they are on a diverging scale from -2 to 2 (from fully deceptive to fully earnest)."
+        "description": "A group project investigating a dataset of civilian complaints against NYPD officers from 1985-2020, pairing our claim with both persusaive supporting and opposing visualizations for each side. Explained our design choices and rationale for each visual, ranking how deceptive they are on a diverging scale from -2 to 2 (from fully deceptive to fully earnest).",
+        "url": "https://klgorski.github.io/dsc106-project2/"
     },
     {
-        "title": "Architecto blanditiis porro hic!",
-        "year": "2025",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Voluptatum libero quibusdam molestiae voluptas ipsa non possimus pariatur. Tempore et officiis amet vel? Accusantium, harum. Veniam quo dolore omnis voluptatibus maiores voluptate quos delectus, iusto reprehenderit quis quia repellat."
+        "title": "Bikewatching Visualization (DSC 106)",
+        "year": "2026",
+        "image": "images/bikewatching.png",
+        "description": "Created an interactive geospatial visualization showcasing Bluebike traffic patterns across the cities of Boston and Cambridge, Massachusetts, using Mapbox GL JS and D3.js. Features an interactive slider to see those patterns change throughout the duration of a day.",
+        "url": "https://vtvdan.github.io/bikewatching/"
     },
     {
         "title": "Eius eos fugit et.",
